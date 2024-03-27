@@ -37,8 +37,8 @@ namespace TollBooth
             const string requestParameters = "language=unk&detectOrientation=true";
             // Get the API URL and the API key from settings.
             // TODO 2: Populate the below two variables with the correct AppSettings properties.
-            // var uriBase = ...
-            // var apiKey = ...
+            var uriBase = "https://eastus.api.cognitive.microsoft.com/";
+            var apiKey = "03b9c442a8f94a1a9df0dd02469263f2";
             
             var resiliencyStrategy = DefineAndRetrieveResiliencyStrategy();
             
